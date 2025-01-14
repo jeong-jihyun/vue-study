@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import DataBindingClass from '@/views/DataBindingClass.vue'
+import RenderingVif from '@/views/RenderingVif.vue'
 
 const routes = [
   {
@@ -19,7 +19,7 @@ const routes = [
   {
     path: '/databinding',
     name: 'DataBinding',
-    component: DataBindingClass
+    component: RenderingVif
   }
 ]
 
