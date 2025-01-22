@@ -20,7 +20,7 @@ const routes = [
   {
     path: "/databinding",
     name: "DataBinding",
-    component: () => import("../views/CompositionAPI2.vue"),
+    component: () => import("../views/KakaoLogin.vue"),
   },
 ];
 
